@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +12,7 @@ code {
     monospace;
 }
 
-.nav-link { 
+.nav-link {
   font-size: large;
   font-family: 'Poppins', sans-serif;
   margin: 0rem 1rem;
@@ -31,5 +32,79 @@ code {
 
 .dev-img {
   height: auto;
-  width: auto;
+  width: 100%;
+}
+
+.productTitle {
+  font-size: x-large;
+  font-family: 'Poppins', sans-serif;
+}
+
+.product-link {
+  color: #0059ff;
+  text-decoration: none;
+  font-size: larger;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dev-arrow {
+  color: #0059ff;
+}
+
+.active {
+  color: #ff0000;
+}
+
+.card {
+  margin: 2rem 0rem;
+}
+
+.dev-img-fluid {
+  background-color: #838181;
+  width: 100%;
+  height: auto;
+}
+
+
+.card-img-top {
+  background-color: #838181;
+  height: 15rem;
+}
+
+.dev-nav-bread-crumb {
+  --bs-breadcrumb-divider: '>';
+}
+
+.breadcrumb-nav-link {
+  text-decoration: none;
+}
+
+.a1 {
+  margin-left: 1.65em;
+}
+
+.a2 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries for responsive images */
+
+@media (max-width: 504px) {
+  .productTitle {
+    font-size: large;
+  }
+
+  .product-link {
+    font-size: large;
+  }
+}
+
+@media (max-width: 404px) {
+  .productTitle {
+    font-size: medium;
+  }
+
+  .product-link {
+    font-size: medium;
+  }
 }

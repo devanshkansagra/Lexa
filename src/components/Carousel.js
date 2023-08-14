@@ -6,7 +6,7 @@ function Carousel(props) {
         <div id="carouselExampleIndicators" className="carousel slide">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={img1} className="d-block w-100 dev-img" alt="Slide 1"/>
+                    <img src={img1} className="d-block w-100 dev-img img-fluid" alt="Slide 1"/>
                 </div>
                 <div className="carousel-item">
                     <img src={img1} className="d-block w-100 dev-img" alt="Slide 2"/>
