@@ -7,7 +7,7 @@ function Products(props) {
       <div className="container">
         <div className="container d-flex justify-content-between mt-5">
           <div className="productTitle">
-            Our Products
+            <h1>Our Products</h1>
           </div>
           <div className="product-breadcrumb-link">
             <nav className="dev-nav-breadcrumb" aria-label="breadcrumb">

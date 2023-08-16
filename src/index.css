@@ -87,6 +87,22 @@ code {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.map-frame {
+  width: 100%;
+  height: 30rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 /* Media Queries for responsive images */
 
 @media (max-width: 504px) {
