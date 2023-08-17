@@ -5,15 +5,15 @@ function Products(props) {
   return (
     <>
       <div className="container">
-        <div className="container d-flex justify-content-between mt-5">
+        <div className="container d-flex justify-content-between mt-5 flex-wrap">
           <div className="productTitle">
             <h1>Our Products</h1>
           </div>
           <div className="product-breadcrumb-link">
             <nav className="dev-nav-breadcrumb" aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><Link to="/" class='breadcrumb-nav-link'>Home</Link></li>
-                <li class="breadcrumb-item active" aria-current="page">Our Products</li>
+              <ol className="breadcrumb">
+                <li className="breadcrumb-item"><Link to="/" className='breadcrumb-nav-link'>Home</Link></li>
+                <li className="breadcrumb-item active" aria-current="page">Our Products</li>
               </ol>
             </nav>
           </div>

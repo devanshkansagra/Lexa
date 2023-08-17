@@ -103,6 +103,18 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.fa-square-facebook {
+  color: #006eff;
+}
+
+.fa-instagram {
+  color: #f529b8;
+}
+
+.info-container {
+  border-top: 1px solid #e1e1e1;
+}
+
 /* Media Queries for responsive images */
 
 @media (max-width: 504px) {

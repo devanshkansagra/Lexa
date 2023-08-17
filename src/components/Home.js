@@ -83,7 +83,27 @@ function Home(props) {
                     </div>
                 </div>
             </div>
-
+            <div className="info-container mt-5 pt-3">
+                <div className="container d-flex justify-content-between flex-wrap">
+                    <div className="address-container">
+                        <h3>Our Address</h3>
+                        <p className="address"><i className="fa-solid fa-location-dot fa-lg"></i>&nbsp;&nbsp;Technolink plastic, Survey No 252, Captain Gate, Opp. Pitrukrupa Hotel,Shapar, Gujarat 360024</p>
+                    </div>
+                    <div className="contact-cont">
+                        <h3>Customer Care</h3>
+                        <p className="c-care"><i className="fa-solid fa-phone fa-lg"></i>&nbsp;&nbsp;+91 8460603033</p>
+                    </div>
+                    <div className="links-container">
+                        <h3>Follow Us On</h3>
+                        <div className="icons-container">
+                            <div className="container d-flex justify-content-around">
+                                <a href="https://m.facebook.com/Technolink.Plastic/"><i className="fa-brands fa-square-facebook fa-2xl"></i></a>
+                                <a href="https://www.instagram.com/technolink.plastic/"><i className="fa-brands fa-instagram fa-2xl"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
